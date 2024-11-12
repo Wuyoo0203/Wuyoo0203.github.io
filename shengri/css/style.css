@@ -662,8 +662,8 @@
 
 /* 盒子 */
 .ly-box11 {
-	width: 21%;
-	height: 600px;
+	width: 330px;
+	height: 620px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -766,8 +766,8 @@
 
 /* 盒子 */
 .ly-box12 {
-	width: 30%;
-	height: 600px;
+	width: 420px;
+	height: 620px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
@@ -1098,8 +1098,12 @@
 	transition: all 10s;
 }
 .active .ly-box23{
-	height:600px;
-	transition-delay: 8s;
+	/* height:600px;
+	transition-delay: 8s; */
+	opacity: 0.9;
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+	transition-delay: 5s;
 }
 /*小三角*/
 .ly-triangle23 {
